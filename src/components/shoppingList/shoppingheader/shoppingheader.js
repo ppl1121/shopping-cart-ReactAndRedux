@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './shoppingheader.css';
-import OrderBy from './OrderBy/OrderBy';
+import OrderBy from '../../OrderBy/OrderBy';
 const shoppingheader = (props) => (
     <div className={classes.Header}>
         <div className={classes.Total}>totally {props.amount} products</div>

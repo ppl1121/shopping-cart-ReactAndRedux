@@ -6,7 +6,7 @@
 .Img {
     height: 60px;
     width: 60px;
-    background-image: url('../../../../static/bag-icon.png');
+    background-image: url('../../../static/bag-icon.png');
     background-repeat: no-repeat;
     background-position: center;
     background-color: black;

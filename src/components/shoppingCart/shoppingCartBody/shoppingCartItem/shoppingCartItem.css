@@ -37,7 +37,7 @@
 }
 
 .TitleAmount {
-    width: 60%;
+    width: 55%;
     box-sizing: border-box;
 }
 
@@ -65,7 +65,6 @@
     .TitleAmount {
         width: 100%;
         box-sizing: border-box;
-        text-align: center;
     }
 
     .TitleAmount p{
@@ -86,6 +85,7 @@
     .Sub {
         margin-left: 5px;
     }
+
 
     .Quantity p{   
         margin-bottom: 0;

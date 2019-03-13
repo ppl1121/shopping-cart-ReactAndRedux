@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import classes from './OrderBy.css';
 import {connect} from  'react-redux';
-import * as shoppingListActionCreator from '../../../../store/shoppingList/action/actionCreator';
-import * as orderByActionCreator from '../../../../store/orderBy/action/actionCreator';
+import * as shoppingListActionCreator from '../../store/shoppingList/action/actionCreator';
+import * as orderByActionCreator from '../../store/orderBy/action/actionCreator';
 class OrderBy extends Component {
 
     changeHandler = (event) => {

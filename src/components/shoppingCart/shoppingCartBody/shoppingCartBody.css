@@ -1,24 +1,19 @@
+
+.Content::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+  }
+
+
+.Content::-webkit-scrollbar-thumb {
+    background-color: black;
+}
+
 .Content {
-
+    height: 70%;
+    overflow-y: scroll;
+    /* scrollbar-color: dark; */
 }
 
-.Footer {
-    width: 100%;
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-}
-
-.Total {
-    color: white;
-    text-align: center;
-}
-
-.Checkout {
-    color: white;
-    text-align: center;
-}
-
-.Checkout button {
-    width: 50%;
-}
