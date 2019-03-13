@@ -1,0 +1,17 @@
+.ShoppingList {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+@media (max-width: 640px) {
+    .ShoppingList {
+        width: 100%;
+    }
+}
+
+@media (max-width: 350px) {
+    .ShoppingList {
+        width: 100%;
+    }
+}

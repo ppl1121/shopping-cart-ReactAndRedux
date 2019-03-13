@@ -1,0 +1,30 @@
+.Header {
+    display: flex;
+    justify-content: center;
+}
+
+.Img {
+    height: 60px;
+    width: 60px;
+    background-image: url('../../../../static/bag-icon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    position: relative;
+
+}
+
+
+.AmountIcon {
+    background-color: rgb(255, 255, 0);
+    color: black;
+    font-size: 4px;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    text-align: center;
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+}

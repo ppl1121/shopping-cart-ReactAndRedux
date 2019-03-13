@@ -1,0 +1,66 @@
+.Cart {
+    position: fixed;
+    top: 0px;
+    right: -400px;
+    height: 100%;
+    width: 400px;
+    background-color: black;
+    transition: all 0.3s;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.Opened {
+    right: 0px;
+}
+
+
+.CartButtonClosed {
+    position: absolute;
+    top: 0px;
+    left: -60px;
+    height: 60px;
+    width: 60px;
+    background-image: url('../../static/bag-icon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    cursor: pointer;
+    
+}
+
+.CartButtonOpened {
+    height: 50px;
+    width: 50px;
+    background-image: url('../../static/sprite_delete-icon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    cursor: pointer;
+}
+
+.AmountIcon {
+    background-color: rgb(255, 255, 0);
+    color: black;
+    font-size: 4px;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    text-align: center;
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+}
+
+@media (max-width: 640px) {
+    .Opened {
+        right: 0px;
+        width: 100%;
+    }
+    
+}
+  
+  @media (max-width: 350px) {
+    
+}

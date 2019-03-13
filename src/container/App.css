@@ -1,0 +1,20 @@
+.Main {
+  display: flex;
+  margin: 80px auto 0 auto;
+  padding: 0 2%;
+  max-width: 1200px;
+}
+
+@media (max-width: 640px) {
+  .Main {
+    margin: 40px auto 0 auto;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 350px) {
+  .Main {
+    margin: 40px auto 0 auto;
+    flex-wrap: wrap;
+  }
+}

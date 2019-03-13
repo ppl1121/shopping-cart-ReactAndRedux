@@ -1,0 +1,99 @@
+.CartItem {
+    color: white;
+    display: flex;
+    padding: 20px 20px;
+    border-top: 1px solid gray
+}
+
+.Quantity{   
+    display: flex;
+}
+
+.Add {
+    cursor: pointer;
+    position: relative;
+    bottom: 5px;
+    margin-left: 30px;
+    width: 15%;
+    font-size: 1.4rem
+}
+
+.Sub {
+    cursor: pointer;
+    position: relative;
+    bottom: 5px;
+    margin-left: 20px;
+    width: 15%;
+    font-size: 1.4rem;  
+}
+
+.Delete {
+    cursor: pointer;
+}
+
+.Img {
+    height: 80px;
+    margin-right: 20px;
+}
+
+.TitleAmount {
+    width: 60%;
+    box-sizing: border-box;
+}
+
+.TitleAmount p{
+    margin-top: 0;
+}
+
+.Price p {
+    position: relative;
+    top: 20px;
+}
+
+  
+@media (max-width: 350px) {
+    .CartItem {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Img {
+        height: 100px;
+        margin: 10px 0;
+    }
+
+    .TitleAmount {
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .TitleAmount p{
+        margin-bottom: 5px;
+    }
+
+    .Price p {
+        margin: 0;
+        position: none;
+        top: 0;
+    }
+
+    .Add {
+
+        margin-left: 15px;
+    }
+    
+    .Sub {
+        margin-left: 5px;
+    }
+
+    .Quantity p{   
+        margin-bottom: 0;
+    }
+
+    .Price {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+}

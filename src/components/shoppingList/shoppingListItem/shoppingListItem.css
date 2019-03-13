@@ -1,0 +1,82 @@
+.ListItem {
+    width: 25%;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    text-align: center;
+    border: 1px solid white;
+    box-sizing: border-box;
+
+}
+
+.ListItem:hover {
+    border: 1px solid rgb(110, 219, 223);
+}
+
+.ListItem:hover .AddToCart{
+    background-color: #f7f45e;
+    color: #020813;
+    cursor: pointer;
+}
+
+
+.Img {
+    width: 100%;
+}
+
+.Title {
+    height:45px;
+    padding: 0 20px;
+}
+
+.Price {
+    text-align: center;
+}
+
+.Installments {
+    text-align: center;
+}
+
+.AddToCart {
+    padding: 10px;
+    margin: 0 20px;
+    text-align: center;
+    background-color: black;
+    color: azure;
+}
+
+/* .AddToCart:hover {
+    background-color: #f7f45e;
+    color: #020813;
+    cursor: pointer;
+} */
+
+@media (max-width: 1024px) {
+    .ListItem {
+        width: 33%;
+    }
+}
+
+@media (max-width: 640px) {
+    .ListItem {
+        width: 50%;
+    }
+}
+
+@media (max-width: 350px) {
+    .ListItem {
+        width: 100%;
+    }
+
+    .Img {
+        width: 40%;
+    }
+
+    .Title {
+        height:25px;
+        margin: 8px 0;
+        text-align: center;
+    }
+}
+
+

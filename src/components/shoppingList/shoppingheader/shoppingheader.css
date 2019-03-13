@@ -1,0 +1,39 @@
+.Header {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.Total {
+    float: left;
+}
+
+.OrderBy {
+    float: right;
+}
+
+
+@media (max-width: 640px) {
+    .Total {
+        float: none;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .OrderBy {
+        float: none;
+        text-align: center;
+    }
+}
+
+@media (max-width: 350px) {
+    .Total {
+        float: none;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .OrderBy {
+        float: none;
+        text-align: center;
+    }
+}

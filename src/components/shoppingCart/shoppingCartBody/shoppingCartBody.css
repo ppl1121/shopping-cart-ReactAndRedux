@@ -1,0 +1,24 @@
+.Content {
+
+}
+
+.Footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.Total {
+    color: white;
+    text-align: center;
+}
+
+.Checkout {
+    color: white;
+    text-align: center;
+}
+
+.Checkout button {
+    width: 50%;
+}

@@ -1,0 +1,25 @@
+.SizeFilter {
+    width: 20%;
+    margin-right: 20px;
+}
+
+.FilterTitle {
+    margin-top: 0;
+}
+
+
+@media (max-width: 640px) {
+    .SizeFilter {
+        width: 100%;
+        margin: 20px 0px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 350px) {
+    .SizeFilter {
+        width: 100%;
+        margin: 20px 0px;
+        text-align: center;
+    }
+}
