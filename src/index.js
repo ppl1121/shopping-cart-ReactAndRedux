@@ -11,8 +11,7 @@ import orderByReducer from './store/orderBy/reducer/reducer';
 import filterReducer from './store/filter/reducer/reducer';
 import cartReducer from './store/cart/reducer/reducer';
 
-const initialState = JSON.parse(window.localStorage.getItem('cartState'));
-
+const initialState = JSON.parse(window.localStorage.getItem('cartState')) || {};
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const rootReducer = combineReducers({
     shoppingList: shoppingListReducer,

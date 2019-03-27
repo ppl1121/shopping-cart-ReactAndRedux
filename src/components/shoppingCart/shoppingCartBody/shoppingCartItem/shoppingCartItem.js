@@ -6,7 +6,7 @@ const shoppingCartItem = (props) => (
         <div className={classes.TitleAmount}>
             <p>{props.title}</p>
             <div className={classes.Quantity}>
-                <p>Quantity: {props.amount}</p>
+                <p className={classes.QuantityNumber}>Quantity : {props.amount}</p>
                 <p onClick={() => props.addItemHandler({id: props.id})} className={classes.Add}>+</p>
                 <p onClick={() => props.subItemHandler({id: props.id})} className={classes.Sub}>-</p>
             </div> 

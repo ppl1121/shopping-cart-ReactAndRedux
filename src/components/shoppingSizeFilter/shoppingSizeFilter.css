@@ -16,7 +16,7 @@
     }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 375px) {
     .SizeFilter {
         width: 100%;
         margin: 20px 0px;

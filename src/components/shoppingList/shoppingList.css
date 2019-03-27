@@ -10,7 +10,7 @@
     }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 375px) {
     .ShoppingList {
         width: 100%;
     }

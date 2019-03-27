@@ -22,7 +22,7 @@
     width: 50%;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 375px) {
     .Footer {
         height: 10%;
     }
