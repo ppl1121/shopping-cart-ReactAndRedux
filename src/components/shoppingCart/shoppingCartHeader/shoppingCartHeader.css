@@ -28,3 +28,9 @@
     height: 19px;
     border-radius: 50%;
 }
+
+@media (max-width: 640px) {
+    .AmountIcon {
+        font-size: 10px;
+    }
+}

@@ -58,9 +58,13 @@
         right: 0px;
         width: 100%;
     }
+
+    .AmountIcon {
+        font-size: 10px;
+    }    
     
 }
   
-  @media (max-width: 375px) {
+@media (max-width: 375px) {
     
 }

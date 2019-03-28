@@ -2,7 +2,7 @@
   "name": "shopping-cart",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ppl1121.github.io/shopping-cart_ReactAndRedux",
+  "homepage": "https://ppl1121.github.io/shopping-cart-ReactAndRedux",
   "dependencies": {
     "@babel/core": "7.2.2",
     "@svgr/webpack": "4.1.0",
