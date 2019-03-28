@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/shopping-cart-ReactAndRedux/static/media/12064273040195392_1.2995d79a.jpg"
   },
   {
-    "revision": "02f3dc668a3d08fce67f",
-    "url": "/shopping-cart-ReactAndRedux/static/css/main.7559ebab.chunk.css"
+    "revision": "6dca90e46e493fc52e21",
+    "url": "/shopping-cart-ReactAndRedux/static/css/main.29e7424e.chunk.css"
   },
   {
     "revision": "b36fcaa4762d0a1de0fc",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/shopping-cart-ReactAndRedux/static/media/11854078013954528_1.7faf6a31.jpg"
   },
   {
-    "revision": "02f3dc668a3d08fce67f",
+    "revision": "6dca90e46e493fc52e21",
     "url": "/shopping-cart-ReactAndRedux/static/js/main.9ed8ac61.chunk.js"
   },
   {
@@ -96,7 +96,7 @@ self.__precacheManifest = [
     "url": "/shopping-cart-ReactAndRedux/static/media/100_2.9b698d6d.jpg"
   },
   {
-    "revision": "46a4d6684e93d274898b58cb1b84b3a2",
+    "revision": "0f6919b7d21a521f8dcf2ff6a6e6fb03",
     "url": "/shopping-cart-ReactAndRedux/index.html"
   }
 ];
